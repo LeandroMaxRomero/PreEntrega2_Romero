@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/estilos.css">
+    <link rel="shorcut icon" href="../IMG/icono-bs.png">
+    <title>Comunidad</title>
+</head>
+<body>
+    <header class="columnas-flex">
+        
+        <div id="encabezado">
+            <img class="img__logo" src="../IMG/header/Brawl-Stars-logo.png" alt="logo de Brawl Stars">
+                <h1 id="header__titulo--texto">Fan Page de
+                    <span class="tipografiaBrawl">BRAWL</span>
+                    <span class="tipografiaStars">STARS</span>
+                </h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">INICIO</a>
+                </li>
+                <li>
+                    <a href="modos.html">MODOS DE JUEGO</a>
+                </li>
+                <li>
+                    <a href="personajes.html">PERSONAJES</a>
+                </li>
+                <li>
+                    <a href="info.html">FAQs & INFO</a>
+                </li>
+                <li>
+                    <a href="contacto.html" class="menuseleccionado">COMUNIDAD</a>
+                </li>
+            </ul>
+        </nav>
+           
+    </header>
+    
+    <main id="main-contacto">
+
+        <div id="contacto-comunidad" class="columnas-flex">
+
+            <div class="centrar-texto">
+                <h2>Súmate a la Comunidad<br>
+                    <span class="tipografiaBrawl">Brawl </span>
+                    <span class="tipografiaStars">Stars</span>
+                </h2>
+            </div> 
+
+            <ul id="lista-sugerencias" class="columnas-flex">
+                <li>
+                    Envíanos un mensaje con tus datos para pertenecer a esta enorme comunidad que crece día a día.
+                </li>
+                <li>
+                    También podés consultarnos sobre eventos o el funcionamiento de la aplicación.
+                </li>
+                <li>
+                    Y si tuviste problemas con el juego o con la cuenta, envianos un mensaje a través de la caja de comentarios y nos comunicaremos contigo para asesorarte y darte una rápida respuesta.
+                </li>
+            </ul>
+
+            <div class="centrar-texto">
+               <h2>NO DUDES EN ESCRIBIRNOS. <br> ESTAREMOS PARA TI SIEMPRE QUE NOS NECESITES.</h2>
+            </div>
+
+        </div>
+
+        <div id="contacto-iconos" class="columnas-flex">
+            <div>
+                <img class="iconos-ok" src="../IMG/contacto/colt-ok.gif" alt="Colt OK">
+                <img class="iconos-ok" src="../IMG/contacto/piper-ok.gif" alt="Piper OK">
+                <img class="iconos-ok" src="../IMG/contacto/spike-ok.gif" alt="Spike OK">
+                <img class="iconos-ok" src="../IMG/contacto/jessie-ok.gif" alt="Jessie OK">
+            </div>
+            <div>
+                <img id="imagen-comunidad" src="../IMG/contacto/comunidad.jpg" alt="Comunidad Brawlstar">
+            </div>
+        </div> 
+
+        <form id="estilo-formulario">
+            <fieldset>
+                <legend class="centrar-texto">COMPLETA EL FORMULARIO PARA RECIBIR LAS ÚLTIMAS NOTICIAS</legend>
+                
+                <div id="campos-formulario" class="columnas-flex">
+
+                    <div class="campos">
+                        <label class="campo-label" for="nombre_completo">NOMBRE COMPLETO</label>
+                        <input class="campo-input" type="text" placeholder="Por ej: Mortis Tepes" id="nombre_completo">
+                    </div>
+
+                    <div class="campos">
+                        <label class="campo-label" for="nombre_pais">PAIS / REGIÓN</label>
+                        <input class="campo-input" type="text" placeholder="Por ej: Transilvania" id="nombre_pais">
+                    </div>
+                    
+                    <div class="campos">
+                        <label class="campo-label" for="mail_contacto">E-MAIL</label>
+                        <input class="campo-input" type="email" placeholder="Por ej: mortis@brawlers.com" id="mail_contacto">
+                    </div>
+                    
+                    <div class="campos">
+                        <label class="campo-label" for="nombre_supercell">SUPERCELL ID</label>
+                        <input class="campo-input" type="text" placeholder="Por ej: #S4N6R3E" id="nombre_supercell">
+                    </div>
+
+                    <div class="campos">
+                        <label class="campo-label" for="menu">¿CÓMO PODEMOS AYUDARTE?</label>
+                        <select name="motivos" id="menu">
+                            <option selected disabled>Selecciona una opción</option>
+                            <option>Quiero pertenecer a la comunidad Brawl Stars</option>
+                            <option>Quiero información sobre eventos</option>
+                            <option>Tuve problemas con el juego</option>
+                            <option>Tuve problemas con mi cuenta</option>
+                            <option>Otro motivo</option>
+                        </select>
+                    </div>
+
+                    <div class="campos">
+                         <label class="campo-label" for="">CUÉNTANOS UN POCO MÁS EN ESTA CAJA DE COMENTARIOS</label>
+                         <textarea class="campo-input" name="" id="" cols="30" rows="10"></textarea>
+                    </div> 
+                    
+                    <div class="campos">
+                         <input id="boton" type="submit" value="Enviar">
+                    </div>
+
+                </div>
+
+            </fieldset>    
+        </form>
+
+
+    </main>
+
+    <footer>
+        <div id="siguenos">
+            SÍGUENOS EN NUESTRAS REDES SOCIALES
+        </div>
+
+        <div id="logo-redes">
+            <a href="#">
+                <img class="logo-footer" src="../IMG/footer/icons8-instagram-48.png" alt="enlace a instagram">
+            </a>              
+            <a href="#">
+                <img class="logo-footer" src="../IMG/footer/icons8-facebook-rodeado-de-círculo-48.png" alt="enlace a facebook">
+            </a>
+            <a href="#">
+                <img class="logo-footer" src="../IMG/footer/icons8-twitter-circled-48.png" alt="enlace a twitter">
+            </a>
+        </div>
+
+        <div id="links-footer">
+            <a href="#">Asistencia</a>
+            <a href="#">Guía para padres</a>
+            <a href="#">Condiciones de servicio</a>
+            <a href="#">Política de Privacidad</a>
+        </div>        
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
