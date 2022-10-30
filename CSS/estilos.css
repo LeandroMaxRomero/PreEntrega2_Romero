@@ -115,8 +115,8 @@ ul{
 li{
     font-size:14px;
 }
-li:hover {
-    font-size: 18px;
+li a:hover {
+    color: var(--rojoClaro);
 }
 a{
     color: var(--blanco);
@@ -147,9 +147,6 @@ a{
     li{
         font-size:18px;
     }
-    li:hover {
-        font-size: 22px;
-    }
 }
 @media screen and (min-width:768px) {
     #header__titulo--texto{
@@ -166,8 +163,8 @@ a{
     li{
         font-size:22px;
     }
-    li:hover {
-        font-size: 26px;
+    nav li:hover{
+        transform: scale(1.2, 1.2);
     }
 }
 
@@ -200,6 +197,9 @@ footer{
 .logo-footer{
     height: 30px;
 }
+.logo-footer:hover{
+    transform: scale(1.2, 1.2);
+}
 #links-footer{
     grid-area: A3;
     font-size: 12px;
@@ -207,6 +207,10 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+#links-footer a:hover{
+    color: var(--blanco);
+    transform: scale(1.1, 1.1);
 }
 @media screen and (min-width: 480px){
     footer{
@@ -224,7 +228,6 @@ footer{
         flex-direction: row;
         justify-content: space-around;
     }
-
 }
 @media screen and (min-width: 768px){
     #siguenos{
@@ -449,6 +452,10 @@ table{
 }
 #imagen-comunidad{
     width: 100%;
+}
+#contenedor-iconos{
+    display: flex;
+    justify-content: center;
 }
 .iconos-ok{
     max-width: 80px;
