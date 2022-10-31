@@ -35,7 +35,26 @@
 }
 
 
-/* ==> ==> Tipografía <== <== */  
+/* ==> ==> Tipografía <== <== */
+@font-face {
+    font-family: 'Nougat';
+    src: url('../fuentes/Nougat-ExtraBlack.ttf') format (Truetype);
+    font-style: normal;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'Lilita One';
+    src: url('../fuentes/LilitaOne-Regular.ttf') format (Truetype);
+    font-style: normal;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'Krub';
+    src: url('../fuentes/Krub-Regular.ttf') format (Truetype);
+    font-style: normal;
+    font-size: normal;
+}
+
 h1{
     font-family: var(--fuenteCuadrada);
     font-size: 33px;
